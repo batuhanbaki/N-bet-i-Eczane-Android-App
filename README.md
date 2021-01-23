@@ -2,13 +2,12 @@
 
 
 ### Ekran Görüntüleri
-```
+
 <img width="300px" height="500px" src="https://kuzeyapi.com/Ideav/download/ss%20%281%29.jpg"/>
 <img width="300px" height="500px" src="https://kuzeyapi.com/Ideav/download/ss%20%282%29.jpg"/>
 <img width="300px" height="500px" src="https://kuzeyapi.com/Ideav/download/ss%20%283%29.jpg"/>
 <img width="300px" height="500px" src="https://kuzeyapi.com/Ideav/download/ss%20%284%29.jpg"/>
 
-```
 
 
 ### API Kaynağı
