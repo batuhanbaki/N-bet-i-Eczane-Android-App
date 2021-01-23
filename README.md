@@ -8,6 +8,10 @@
 <img width="200px" height="400px" src="https://kuzeyapi.com/Ideav/download/ss%20%284%29.jpg"/>
 
 
+### Uygulama Linki
+<a href="https://play.google.com/store/apps/details?id=com.prod.nobetcimnerede">Google Play Link</a>
+
+
 
 ### API Kaynağı
 
