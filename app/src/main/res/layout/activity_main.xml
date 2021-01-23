@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/swiperefresh"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    >
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textSize="24sp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Günün Nöbetçi Eczaneleri"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Spinner
+        android:id="@+id/illerspinner"
+        android:layout_width="match_parent"
+        android:layout_below="@id/title"
+        android:layout_height="40dp"
+        android:background="@drawable/spinnerbg"
+        android:layout_marginTop="10dp"
+        android:entries="@array/iller_array"
+        android:paddingStart="10dp"
+        android:prompt="@string/iller_prompt" />
+
+    <TextView
+        android:id="@+id/nodatatw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Şuanda sorgu için\nveri bulunamadı"
+        android:textAlignment="center"
+        android:drawableLeft="@drawable/ic_data"
+        android:drawablePadding="10dp"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/illerspinner"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:scrollbars="vertical" />
+
+    </RelativeLayout>
+
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

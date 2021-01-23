@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/eczanecw"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5dp"
+    android:layout_marginTop="12dp"
+    android:layout_marginLeft="7dp"
+    android:layout_marginRight="7dp">
+
+    <RelativeLayout
+        android:id="@+id/cwRlayout"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+        <ImageView
+            android:id="@+id/cwLogo"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/logo"/>
+
+        <TextView
+            android:id="@+id/eczanead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="5dp"
+            android:layout_toStartOf="@+id/eczaneshowBtn"
+            android:layout_toEndOf="@id/cwLogo"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Eczanesi"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/eczaneil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/eczanead"
+            android:layout_marginTop="-8dp"
+            android:layout_toEndOf="@id/cwLogo"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Eczane İl"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/eczaneshowBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cwshowbtn"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:text="Görüntüle"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:layout_marginRight="15dp"/>
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
