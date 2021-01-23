@@ -1,1 +1,1 @@
-# N-bet-i-Eczane-Android-App
+# Nöbetçi Eczane Basic Android App
